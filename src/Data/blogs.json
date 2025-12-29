@@ -1,0 +1,45 @@
+[
+
+  {
+    "id": 1,
+    "image": "/assets/blog_marine_overview_home11111.svg",
+    "title": "Brief overview of Marine Insurance market in India",
+    "desc": ""
+  },
+  {
+    "id": 2,
+    "image": "/assets/blog_7tips_ghi.png",
+    "title": "7 Tips for Choosing Health Insurance for Your Small Business",
+    "desc": ""
+  },
+  
+  {
+    "id": 3,
+    "image": "/assets/blog_marine_importance_home.png",
+    "title": "Why is Group Health Insurance important for employers?",
+    "desc": "Read on to know more about why Group Health Insurance is important for employers."
+  },
+
+  {
+  "id": 4,
+  "image": "/assets/blog_wc_4_reasons_home.svg",
+  "title": "4 reasons why business firms require Employee's Compensation Policy",
+  "desc": "Read on to know more about why Employee's compensation policy is necessary for business enterprises"
+},
+
+  {
+  "id": 5,
+  "image": "/assets/blog_marine_whyus_home.svg",
+  "title": "Why choose ICICI Lombard for Marine Transit Insurance",
+  "desc": "Read on to know more about why choose ICICI Lombard for Marine Transit Insurance"
+},
+
+{
+  "id": 6,
+  "image": "/assets/blog_ghi1_home.png",
+  "title": "Why is Group Health Insurance important for employers?",
+  "desc": "Read on to know more about why Group Health Insurance is important for employers"
+}
+
+  
+]

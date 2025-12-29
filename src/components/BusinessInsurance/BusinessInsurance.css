@@ -1,0 +1,58 @@
+.business-insurance {
+  background: #ffffff;
+  padding: 40px 40px 10px;
+}
+
+.business-container {
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;               /* 🔑 makes side-by-side */
+  flex-direction: row;         /* 🔑 image left, text right */
+  align-items: flex-start;
+  gap: 80px;
+}
+
+/* LEFT IMAGE */
+.business-image {
+  flex: 1;
+}
+
+.business-image img {
+  width: 100%;
+  max-width: 460px;
+}
+
+/* RIGHT TEXT */
+.business-content {
+  flex: 1.3;
+  max-width: 560px;
+  padding-top: 10px;
+}
+
+.business-content h2 {
+  font-size: 36px;
+  font-weight: 500;   /* not too bold */
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.business-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  margin: 0;
+  max-width: 620px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 900px) {
+  .business-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .business-content {
+    max-width: 100%;
+  }
+}

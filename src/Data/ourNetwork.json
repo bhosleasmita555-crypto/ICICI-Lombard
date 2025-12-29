@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "icon": "branches.png",
+    "count": "305",
+    "label":  "Branches"
+  },
+  {
+    "id": 2,
+    "icon": "virtual-offices.png",
+    "count": "917",
+    "label": "Virtual Offices"
+  },
+  {
+    "id": 3,
+    "icon":  "network-garages.png",
+    "count": "13,134",
+    "label": "Network Garages"
+  },
+  {
+    "id": 4,
+    "icon": "network-hospitals.png",
+    "count": "25,136",
+    "label": "Network Hospitals",
+    "highlight": true
+  }
+]

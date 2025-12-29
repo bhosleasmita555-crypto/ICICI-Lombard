@@ -1,0 +1,103 @@
+.testimonial-section {
+  padding: 20px 30px 50px;
+  text-align: center;
+  background: #fff;
+   margin-top: -60px;
+}
+
+.testimonial-section h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+/* Main Row */
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Testimonial Box */
+.testimonial-box {
+  width: 38%;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.testimonial-box.bold p {
+  font-weight: 600;
+}
+
+.testimonial-box h4 {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.testimonial-box span {
+  color: #777;
+  font-weight: 400;
+}
+
+/* Read More */
+.read-more {
+  color: red;
+  cursor: pointer;
+}
+
+/* Quote */
+.quote-icon {
+  font-size: 90px;
+  color: #efe7d6;
+  margin: 0 30px;
+}
+
+/* Arrows */
+.nav {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: white;
+  font-size: 20px;
+  cursor: pointer;
+  color: #777;
+}
+
+.nav.left {
+  margin-right: 20px;
+}
+
+.nav.right {
+  margin-left: 20px;
+}
+
+/* Dots */
+.dots {
+  margin-top: 50px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.dot.active {
+  width: 22px;
+  background: #f58220;
+  border-radius: 12px;
+}
+
+.read-more {
+  color: red;
+  cursor: pointer;
+  font-weight: 500;
+}

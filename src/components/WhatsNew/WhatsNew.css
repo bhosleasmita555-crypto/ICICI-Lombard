@@ -1,0 +1,76 @@
+.whatsnew-section {
+  background: #f5f5ef;
+  padding: 80px 0 120px;
+}
+
+.whatsnew-grid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* ITEM */
+.whatsnew-item {
+  position: relative;
+}
+
+/* IMAGE */
+.whatsnew-image img {
+  width: 100%;
+  display: block;
+}
+
+/* WHITE CARD */
+.whatsnew-card {
+  background: #fff;
+  padding: 30px 25px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+
+  position: relative;
+  top: -80px;   /* 🔥 THIS IS THE KEY */
+  margin: 0 20px;
+}
+
+.whatsnew-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.know-more-btn {
+  background: transparent;
+  border: 1px solid #ff6a00;
+  color: #ff6a00;
+  padding: 10px 26px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+
+.know-more-btn:hover {
+  background: #ff6a00;
+  color: #fff;
+}
+
+.call-link {
+  font-size: 14px;
+  color: #ff6a00;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .whatsnew-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .whatsnew-card {
+    top: -50px;
+  }
+}

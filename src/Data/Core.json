@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Strong",
+    "subtitle": "Brand Equity",
+    "icon": "strong-brand-equitry.png"
+  },
+  {
+    "id": 2,
+    "title": "Extensive",
+    "subtitle": "Service Network",
+    "icon": "extensive-distribution-network.png"
+  },
+  {
+    "id": 3,
+    "title": "Comprehensive",
+    "subtitle": "Product Portfolio",
+    "icon": "comprehensive-product-portfolio.png"
+  },
+  {
+    "id": 4,
+    "title": "Technology",
+    "subtitle": "Differentiation",
+    "icon": "technology-differentiation.png"
+  }
+]

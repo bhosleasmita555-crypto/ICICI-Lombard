@@ -1,0 +1,59 @@
+/* WRAPPER (IMPORTANT) */
+.header-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background: #fff;
+}
+
+/* TOP BAR */
+.topbar {
+  width: 100%;
+  height: 38px;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0px;
+  font-size: 14px;
+  color: #444;
+  font-family: sans-serif;
+  border-bottom: 1px solid #e5e5e5;
+  
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+ 
+}
+
+.top-right span {
+  cursor: pointer;
+}
+
+/* LOGIN BUTTON */
+.login-btn {
+  background: #ff6a00;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #e05e00;
+}
+
+.login-arrow {
+  font-size: 14px;
+}

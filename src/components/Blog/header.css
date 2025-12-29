@@ -1,0 +1,22 @@
+.blog-title-section {
+  width: 100%;
+  padding: 80px 0 40px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-title-section h1 {
+  font-size: 35px;
+  font-weight: 300;
+  color: #282828;
+  text-align: center;
+   font-family:  sans-serif;
+}
+
+
+   /* font: 300 35px "Muli", sans-serif;
+    color: #282828;
+    text-align*/
+

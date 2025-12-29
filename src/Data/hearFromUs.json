@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/1.png",
+    "video": "/assets/video2.mp4",
+    "text": "We truly applaud all MSMEs for taking risks and making breakthroughs. #SalaamMSME for the contribution! Watch this video to know how to secure your business from risks."
+  },
+  {
+    "id": 2,
+    "image": "/assets/2.png",
+    "video": "/assets/video2.mp4",
+    "text": "Applaud companies that prioritize employee health. Hear heartfelt stories and see how ICICI Lombard’s Group Health Insurance creates healthier workplaces."
+  },
+  {
+    "id": 3,
+    "image": "/assets/3.png",
+    "video": "/assets/video3.mp4",
+    "text": "Discover resilience with our Marine Insurance! Watch customer testimonies of triumphs who chose ICICI Lombard’s marine insurance."
+  }
+]

@@ -1,0 +1,165 @@
+/* Overlay */
+.create-account-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+/* Popup box */
+.create-account-box {
+  background: #ffffff;
+  width: 420px;
+  max-width: 92%;
+  border-radius: 10px;
+  padding: 24px 26px 26px;
+  position: relative;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Close icon */
+.create-account-box .close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Title */
+.create-account-box h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* Subtitle */
+.create-account-box .subtitle {
+  margin: 6px 0 18px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Two column row */
+.form-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+/* Inputs */
+.create-account-box input[type="text"],
+.create-account-box input[type="email"],
+.create-account-box input[type="tel"],
+.create-account-box input[type="date"] {
+  width: 100%;
+  padding: 11px 12px;
+  font-size: 14px;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+  outline: none;
+}
+
+.create-account-box input::placeholder {
+  color: #999;
+}
+
+.create-account-box input:focus {
+  border-color: #ff6a00;
+}
+
+/* Single row spacing */
+.form-group {
+  margin-bottom: 12px;
+}
+
+/* Gender section */
+.gender-group {
+  margin: 14px 0 10px;
+}
+
+.gender-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.gender-options {
+  display: flex;
+  gap: 18px;
+}
+
+.gender-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.gender-options input {
+  accent-color: #ff6a00;
+}
+
+/* Terms */
+.terms {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 13px;
+  color: #555;
+  margin: 14px 0 18px;
+}
+
+.terms input {
+  margin-top: 3px;
+  accent-color: #ff6a00;
+}
+
+.terms a {
+  color: #ff6a00;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+/* CTA Button */
+.create-account-btn {
+  width: 100%;
+  padding: 13px;
+  background: #ff6a00;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.create-account-btn:hover {
+  background: #e65f00;
+}
+
+/* Footer login link */
+.footer-login {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 14px;
+  color: #555;
+}
+
+.footer-login span {
+  color: #ff6a00;
+  font-weight: 500;
+  cursor: pointer;
+}

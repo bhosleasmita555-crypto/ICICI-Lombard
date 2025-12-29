@@ -1,0 +1,135 @@
+/* ===== PRODUCT SECTION ===== */
+.product-section {
+  background: #f3f3f3;
+  padding: 80px 0 90px;
+  position: relative;
+}
+
+.product-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* LEFT */
+.product-left {
+  width: 72%;
+  position: relative;   /* ⬅️ anchor for title */
+}
+
+/* BLUE TITLE — ONLY THIS overlaps hero */
+.product-title {
+  background: #003b8f;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  width: fit-content;
+
+  position: absolute;
+  top: -32px;          /* ⬅️ hero overlap */
+  left: 12px;
+  z-index: 5;
+}
+
+/* WHITE BOX */
+.product-wrapper {
+  background: #fff;
+  border-radius: 8px;
+  padding: 32px 30px 60px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+}
+
+/* GRID */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px 40px;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #003366;
+}
+
+.product-card img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.product-card:hover {
+  color: #ff6600;
+  cursor: pointer;
+}
+
+.product-tag {
+  background: #ff8c5a;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-left: 6px;
+}
+
+/* ===== RIGHT SIDE PROMO SLIDER ===== */
+.product-right {
+  width: 28%;
+  display: flex;
+}
+
+/* PROMO CARD */
+.promo-slider {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.14);
+  width: 100%;
+  height: 340px;
+  position: relative;
+
+  overflow: visible;   /* ✅ ALLOW DOTS OUTSIDE */
+}
+
+/* TRACK */
+.promo-track {
+  height: 100%;
+  overflow: hidden;    /* ✅ keep image clipped */
+  border-radius: 10px;
+}
+
+/* IMAGE */
+.promo-track img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* DOTS — OUTSIDE CARD */
+.promo-dots {
+  position: absolute;
+  bottom: -22px;       /* ✅ OUTSIDE */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 5;
+}
+
+.promo-dots span {
+  width: 8px;
+  height: 8px;
+  background: #d3d3d3;
+  border-radius: 50%;
+}
+
+.promo-dots span.active {
+  background: #ff6600;
+}

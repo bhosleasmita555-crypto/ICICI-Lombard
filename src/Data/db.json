@@ -1,0 +1,76 @@
+{
+  "title": "Create account",
+  "subtitle": "Manage all your insurance policies in one place",
+
+  "fields": [
+    {
+      "id": "firstName",
+      "label": "First name",
+      "type": "text",
+      "placeholder": "First name",
+      "required": true
+    },
+    {
+      "id": "lastName",
+      "label": "Last name",
+      "type": "text",
+      "placeholder": "Last name",
+      "required": true
+    },
+    {
+      "id": "dob",
+      "label": "Date of birth",
+      "type": "date",
+      "placeholder": "DD / MM / YYYY",
+      "required": true
+    },
+    {
+      "id": "mobile",
+      "label": "Mobile no.",
+      "type": "tel",
+      "placeholder": "Enter mobile number",
+      "required": true,
+      "maxLength": 10
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "type": "email",
+      "placeholder": "Email",
+      "required": true
+    }
+  ],
+
+  "radioGroups": [
+    {
+      "id": "gender",
+      "label": "Gender",
+      "required": true,
+      "options": [
+        { "label": "Male", "value": "male" },
+        { "label": "Female", "value": "female" },
+        { "label": "Other", "value": "other" }
+      ]
+    }
+  ],
+
+  "checkboxes": [
+    {
+      "id": "terms",
+      "label": "I agree to the Terms and Conditions",
+      "required": true
+    }
+  ],
+
+  "actions": {
+    "submitButton": {
+      "label": "Create account",
+      "type": "submit"
+    },
+    "footerLink": {
+      "text": "New to ICICI Lombard?",
+      "linkText": "Login",
+      "route": "/login"
+    }
+  }
+}

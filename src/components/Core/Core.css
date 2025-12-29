@@ -1,0 +1,58 @@
+.core-section {
+  background: #00305b;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.core-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+.core-icon img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
+
+.core-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.core-icon {
+  width: 110px;
+  height: 110px;
+  background: #0b4c7a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 40px;
+  color: #ff8c2b;
+}
+
+.core-card p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .core-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .core-grid {
+    grid-template-columns: 1fr;
+  }
+}

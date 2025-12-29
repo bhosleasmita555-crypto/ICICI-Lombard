@@ -1,0 +1,45 @@
+.why-section {
+  background: #ffffff;
+  padding: 25px 40px 40px;
+  text-align: center;
+}
+
+/* Title */
+.why-title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.why-subtitle {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.why-link {
+  color: #0072bc;
+  text-decoration: none;
+}
+
+/* Stats */
+.why-stats {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-bottom: 80px;
+}
+
+.stat-box h3 {
+  font-size: 38px;
+  font-weight: 500;
+  color: #f58220; /* ICICI orange */
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  font-size: 15px;
+  color: #333;
+}
