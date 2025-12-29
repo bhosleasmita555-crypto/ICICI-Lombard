@@ -27,8 +27,7 @@ const Home = () => (
     <Header />
     <LoginPopup />
     <CreateAccount />
-
-    <Hero />
+     <Hero />
     <Products />
     <BusinessInsurance />
     <WhyChoose />
